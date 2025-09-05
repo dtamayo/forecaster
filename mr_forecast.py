@@ -26,7 +26,7 @@ all_hyper = h5['hyper_posterior'][:]
 h5.close()
 
 ## function
-from func import piece_linear, ProbRGivenM, classification
+from .func import piece_linear, ProbRGivenM, classification
 
 ##############################################
 
